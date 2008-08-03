@@ -1,6 +1,6 @@
 %define name xmms-mad
 %define version 0.10
-%define release %mkrel 5
+%define release %mkrel 6
 
 Summary: XMMS MPEG audio input plugin based on MAD
 Name: %{name}
