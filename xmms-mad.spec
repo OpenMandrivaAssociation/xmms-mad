@@ -1,13 +1,13 @@
 %define name xmms-mad
 %define version 0.10
-%define release %mkrel 6
+%define release %mkrel 7
 
 Summary: XMMS MPEG audio input plugin based on MAD
 Name: %{name}
 Version: %{version}
 Release: %{release}
 Source0: http://prdownloads.sourceforge.net/xmms-mad/%{name}-%{version}.tar.bz2
-License: GPL
+License: GPLv2+
 Group: Sound
 URL:   http://xmms-mad.sourceforge.net/
 BuildRoot: %{_tmppath}/%{name}-buildroot
