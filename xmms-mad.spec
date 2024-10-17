@@ -9,7 +9,7 @@ Release: %{release}
 Source0: http://prdownloads.sourceforge.net/xmms-mad/%{name}-%{version}.tar.bz2
 License: GPLv2+
 Group: Sound
-URL:   http://xmms-mad.sourceforge.net/
+URL:   https://xmms-mad.sourceforge.net/
 BuildRoot: %{_tmppath}/%{name}-buildroot
 Requires: xmms
 BuildRequires: libxmms-devel 
