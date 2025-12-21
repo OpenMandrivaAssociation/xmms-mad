@@ -12,6 +12,11 @@ Group: Sound
 URL:   https://xmms-mad.sourceforge.net/
 BuildRoot: %{_tmppath}/%{name}-buildroot
 Requires: xmms
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires: libxmms-devel 
 BuildRequires: mad-devel >= 0.14.2b-4mdk
 BuildRequires: libid3tag-devel
